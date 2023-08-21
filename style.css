@@ -1,0 +1,254 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* main nav */
+.nav{
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+/* left of navbar */
+
+#logo{
+    margin-left: 24px;
+    margin-top: 15px;
+    display: flex;
+    font-size: 18px;
+}
+
+#colmar{
+    color: rgb(161, 161, 161);
+    font-weight: 400;
+}
+
+span{
+    color: black;
+    font-weight: 800;
+}
+
+
+
+/* right of nav */
+#nav a{
+    color:rgb(161, 161, 161);
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+
+/* second section */
+.banner-section{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    /* align-items: center; */
+
+}
+
+
+.banner-img{
+    height: 600px;
+    width: 102%;
+    padding: 30px;
+}
+
+.banner-right-sec{
+    margin: 10% 0;
+    padding: 0 40px;
+    font-weight: 800;
+    width: 35%;
+    color:rgb(87, 87, 87) ;
+}
+
+.learn-something{
+    font-size: 2.5em;
+}
+
+.starthere{
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+
+
+/* third section */
+.blogs{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+/* left portion */
+
+.article-img{
+    height: 500px;
+    width: 100%;
+    padding: 30px 30px 0 30px;
+}
+
+.h1ofarticle,.paraofarticle{
+    padding: 10px 10px 3px 30px;
+}
+
+.somelink{
+    margin-top: 20px;
+    font-size:small;
+}
+
+/* right */
+.listingOfArticles{
+    border-left: 1px solid rgb(195, 195, 195);
+}
+
+#art-1,#art-2,#art-3{
+    margin: 20px;
+}
+
+#art-1 img,#art-2 img,#art-3 img{
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+}
+
+#art-1 div,#art-2 div,#art-3 div{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* fourth section */
+
+.start-learning{
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 50px;
+}
+.start-learning h1{
+    text-align: center;
+    color:rgb(87, 87, 87) ;
+    padding: 40px;
+}
+
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:0;
+    grid-row-gap: 20px;
+    /* grid-gap: 30px; */
+}
+
+.course1{
+    width: 350px;
+    background-color: white;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.course1 img{
+    width: 350px;
+    height: 200px;
+}
+
+.course1 h3{
+    color: rgb(87, 87, 87);
+}
+
+.course1 h3,.course1 p{
+    margin: 10px;
+
+}
+
+.course1 p{
+    font-size: small;
+    color:rgb(161, 161, 161) ;
+}
+
+
+
+/* thesis */
+.thesisupper h1{
+    text-align: center;
+    color: rgb(87, 87, 87) ;
+    padding: 40px;
+}
+.thesis{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.leftthesis h3{
+    padding: 10px 10px 3px 30px;
+    color:rgb(87, 87, 87) ;
+}
+
+.leftthesis video{
+    padding: 30px;
+}
+
+.rightthesis{
+    margin-top: 40px;
+}
+
+
+.rightthesis img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+.divThesis1{
+    padding: 50px;
+}
+
+.divThesis1 h4{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+    font-size: smaller;
+    color: rgb(135, 134, 134);
+    font-weight: 300;
+    border-top: 1px solid rgb(195, 195, 195);
+    width: 100%;
+    height: 80px;
+
+}
+
+.footer > p{
+    float: left;
+    padding: 20px;
+}
+  
+#privacy p{
+    float: right;
+    padding: 20px;
+}
